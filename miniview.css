@@ -1,0 +1,34 @@
+#miniview {
+	position: fixed;
+	width: 800px;
+	height: 70px;
+	top: 10px;
+	left: 10px;
+	background-color: #F1EEE5;
+	border: 1px solid #000;
+	border-radius:4px;
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	opacity: 0.9;
+}
+
+.mini {
+	position: absolute;
+	border: 1px solid #CCC;
+	border-radius:2px;
+	-webkit-border-radius:2px;
+	-moz-border-radius:2px;
+	background-color: #CBCAC8;
+	font-size: 1px;
+	line-height: 1px;
+}
+
+.port {
+	position: absolute;
+	border: 2px solid violet;
+	border-radius:2px;
+	-webkit-border-radius:2px;
+	-moz-border-radius:2px;
+	opacity: 1 ;
+	z-index:1;
+}
